@@ -42,11 +42,11 @@ The influence of the number of neighbors (k) on classification accuracy was anal
 ## Distance Metrics
 The K-Nearest Neighbors classifier was evaluated using three different distance metrics in order to analyze their impact on classification performance:
 
-### Euclidean distance (L2 norm) – the standard metric used in KNN, based on the straight-line distance between feature vectors.
+    Euclidean distance (L2 norm) – the standard metric used in KNN, based on the straight-line distance between feature vectors.
 
-### Manhattan distance (L1 norm) – computes the sum of absolute differences between feature components.
+    Manhattan distance (L1 norm) – computes the sum of absolute differences between feature components.
 
-### Mahalanobis distance – accounts for feature correlations and incorporates the covariance structure of the data, which is particularly relevant for MFCC-based feature representations.
+    Mahalanobis distance – accounts for feature correlations and incorporates the covariance structure of the data, which is particularly relevant for MFCC-based feature representations.
 
 For each distance metric, a separate implementation file is provided in the repository, allowing independent evaluation and comparison of classification performance.
 
