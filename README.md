@@ -39,8 +39,22 @@ Classification was performed using the K-Nearest Neighbors (KNN) algorithm with 
 The influence of the number of neighbors (k) on classification accuracy was analyzed.
 
 
+## Distance Metrics
+The K-Nearest Neighbors classifier was evaluated using three different distance metrics in order to analyze their impact on classification performance:
+
+### Euclidean distance (L2 norm) – the standard metric used in KNN, based on the straight-line distance between feature vectors.
+
+### Manhattan distance (L1 norm) – computes the sum of absolute differences between feature components.
+
+### Mahalanobis distance – accounts for feature correlations and incorporates the covariance structure of the data, which is particularly relevant for MFCC-based feature representations.
+
+For each distance metric, a separate implementation file is provided in the repository, allowing independent evaluation and comparison of classification performance.
+
+This comparative analysis highlights how the geometry of the feature space influences multi-class audio classification.
+
+
 ## Results
-The best performance was achieved using 16 MFCC coefficients and LFDA dimensionality reduction, reaching up to 85% classification accuracy.
+The best performance was achieved using 16 MFCC coefficients and Euclidean distance, reaching up to 85% classification accuracy.
 Confusion matrices and performance comparison plots are included in the repository.
 
 
