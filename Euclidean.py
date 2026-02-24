@@ -301,7 +301,7 @@ X_test = np.array(X_test)
 y_test = np.array(y_test)
 
 print("Test shape:", X_test.shape)
-print("Broj različitih labela:", len(np.unique(y_test)))
+print("Number of different labels:", len(np.unique(y_test)))
 
 # === Normalization of the test set with the same scaler ===
 X_test = scaler.transform(X_test)
@@ -415,7 +415,7 @@ plt.show()
 # === Comparison of accuracy ===
 print("\n--- Accuracy summary (k=3) ---")
 print(f"Original MFCC: {acc_raw:.3f}")
-print(f"LDA redukction:   {acc_lda:.3f}")
+print(f"LDA reduction:   {acc_lda:.3f}")
 print(f"LFDA reduction:  {acc_lfda:.3f}")
 
 #---------------------------------------------------------------------------------------------------------------
@@ -462,4 +462,5 @@ plt.title("The influence of the number of neighbors on the accuracy of the KNN c
 plt.legend()
 plt.grid(True)
 plt.show()
+
 
