@@ -12,7 +12,7 @@ The task is formulated as a multi-class classification problem.
 ## Feature Extraction
 For each audio sample, the following features were extracted:
 
-- 13–20 MFCC coefficients
+- 13, 16, 20 MFCC coefficients
 - Zero Crossing Rate (ZCR)
 - Spectral Centroid
 - Spectral Bandwidth
