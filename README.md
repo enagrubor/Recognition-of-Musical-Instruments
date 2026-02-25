@@ -3,6 +3,8 @@ This project presents a machine learning pipeline for musical instrument recogni
 Dimensionality reduction techniques (LDA and LFDA) were applied to improve class separability and classification performance. 
 The final classification was performed using a K-Nearest Neighbors (KNN) classifier.
 
+## Dataset
+Dataset used in this project: https://www.kaggle.com/datasets/soumendraprasad/musical-instruments-sound-dataset/data
 
 ## Problem Description
 The goal of this project is to automatically classify musical instruments based on their audio recordings. 
